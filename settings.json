@@ -1,0 +1,18 @@
+{
+	"requestRules": [
+		{
+			"filter": {
+				"hostname": "\\.*"
+			},
+			"modifiers": ["logger"]
+		}
+	],
+	"responseRules": [
+		{
+			"filter": {
+				"hostname": "\\.*"
+			},
+			"modifiers": ["logger"]
+		}
+	]
+}
